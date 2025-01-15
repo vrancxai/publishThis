@@ -1,0 +1,18 @@
+h1 {
+    color: hotpink;
+}
+
+img {
+    width: 400px;
+}
+
+h2 {
+    background-color: hotpink;
+    color: honeydew;
+}
+
+div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;  
+}
