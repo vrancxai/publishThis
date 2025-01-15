@@ -1,18 +1,70 @@
 h1 {
     color: hotpink;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
 }
 
 img {
-    width: 400px;
+    width: 300px;
 }
 
 h2 {
-    background-color: hotpink;
+    background-color: rgb(247, 148, 197);
     color: honeydew;
+    height: 300px;
+    font-size: 90px;
+    text-align: center;
+    line-height: 300px;
+    padding-left: 30px;
+    padding-right: 30px;
+
 }
 
-div {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;  
+
+
+div.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    background-color: rgb(212, 172, 202);
+    height: 30px;
+    font-size: 30px;
+    padding: 40px;
+    color: rgb(77, 19, 69);
+    text-align: center;
+    line-height: 30px;
+    
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    
+}
+a {
+    text-decoration: none;
+    background-color: palevioletred;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    color: honeydew;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+
 }
